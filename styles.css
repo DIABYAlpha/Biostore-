@@ -17,9 +17,9 @@ a{
 
 }
 
-h1 ,h2{
+h1, h2{
     text-align: center;
-    color: brown;
+    color: rgb(69, 42, 165);
     font-size: 100px;
 }
 
@@ -140,8 +140,13 @@ input {
 }
 
 button {
+    width: 50px;;
+    height: 50px;
+    padding: 50px;
     background-color:violet;
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -462,8 +467,14 @@ input {
 button {
     background-color:violet;
     margin: 10px;
-}
+    padding: 10px;
+    border-radius: 70px;
 
+}
+i {
+    font-size: 100px;
+    justify-content: center;
+}
     
 }
 
