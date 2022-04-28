@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.banniere {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; 
+    object-position: center
+}
+
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 50px;
+    display: inline;
+    background-color: cornsilk;
+
+}
+
+h1 ,h2{
+    text-align: center;
+    color: brown;
+    font-size: 100px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.element{
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    color: grey;
+
+}
+.el2 {
+    font-family: 'Roboto', sans-serif;
+}
+.assiette {
+    width: 500px;
+    object-position: center
+}
+
+.produit {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(134, 165, 42);
+    font-size: 60px;
+}
+
+.imgp1 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.paragraphe {
+    width: 500px;
+    height: 100%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.paragraphe:hover{
+    border: 10px solid indianred;
+}
+
+.imgp3 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.imgp4  {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+h4 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+}
+
+.informations {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 70px;
+}
+
+form {
+    /* uniquement pour centrer le formulaire sur la page  */
+    margin: 0 auto;
+    width: 80%;
+
+    /* encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid brown;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    margin: 10px;
+    width: 100%;
+}
+
+button {
+    background-color:violet;
+    margin: 10px;
+}
+
+
+/* Mobile  */
+@media all and (min-width: 300px) and (max-width: 800px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.banniere {
+    width: 80%;
+    height: 60px;
+    object-fit: cover; 
+    object-position: center
+}
+
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    display: inline;
+    background-color: cornsilk;
+
+}
+
+h1 ,h2{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+
+.container {
+    margin: auto;
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    
+
+}
+
+.assiette {
+    width: 150px;
+    object-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.el2 {
+    
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.produit {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(134, 165, 42);
+    font-size: 60px;
+}
+
+.imgp1 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.paragraphe {
+    width: auto;
+    height: 20%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.paragraphe:hover{
+    border: 10px solid indianred;
+}
+
+.imgp3 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.imgp4  {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+h4 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+}
+
+.informations {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 70px;
+}
+
+form {
+    /* uniquement pour centrer le formulaire sur la page  */
+    margin: 0 auto;
+    width: 80%;
+
+    /* encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid brown;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    margin: 10px;
+    width: 100%;
+}
+
+button {
+    background-color:violet;
+    margin: 10px;
+}
+
+}
+
+/* 
+Pour les tablettes  */
+
+@media all and (min-width: 820px) and (max-width: 1180px){
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.banniere {
+    width: 80%;
+    height: 60px;
+    object-fit: cover; 
+    object-position: center
+}
+
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    display: inline;
+    background-color: cornsilk;
+
+}
+
+h1 ,h2{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+
+.container {
+    margin: auto;
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    
+
+}
+
+.assiette {
+    width: 150px;
+    object-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.el2 {
+    
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.produit {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(134, 165, 42);
+    font-size: 60px;
+}
+
+.imgp1 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.paragraphe {
+    width: auto;
+    height: 20%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.paragraphe:hover{
+    border: 10px solid indianred;
+}
+
+.imgp3 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+.imgp4  {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center
+}
+
+h4 {
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+}
+
+.informations {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 70px;
+}
+
+form {
+    /* uniquement pour centrer le formulaire sur la page  */
+    margin: 0 auto;
+    width: 80%;
+
+    /* encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid brown;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    margin: 10px;
+    width: 100%;
+}
+
+button {
+    background-color:violet;
+    margin: 10px;
+}
+
+    
+}
+
+
+
+
+
+
