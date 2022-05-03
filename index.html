@@ -16,7 +16,7 @@
     <nav>
         <a href="#home">Home</a>
         <!-- <li> <a href="#news"></a>News</li> -->
-        <a href="#contact">contact</a>
+        <a href="#contact">Contact</a>
         <!-- <li style="float:right "> <a class="active" href="#about">About</a></li> -->
 
     </nav>
@@ -24,23 +24,30 @@
     <h1>Biostore</h1>
 
     <section>
-        <img class="banniere" src="banniere.jpg" alt="">
+        <img class="banniere" src="banniere.jpg" alt="image de couverture">
     </section>
 
     <h2>Notre histoire</h2>
 
     <div class="container">
 
-        <div class="element el1"> <img class="assiette" src="image.jpg" alt=""></div>
+        <div class="element el1"> <img class="assiette" src="image.jpg" alt="repas de groupe"></div>
         <div class="element el2">
-            <p>Niché au fond de la vallée de la basse guinée, kindia, nos produits sont issus du commerce équitable.Une
-                ferme familiale qui vous offre des produits en toute saison et pendant toute l'année des produits sains
-                et authentiques. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae tempore eveniet
-                molestias saepe ullam! Error, autem recusandae quis vitae totam cum ex dignissimos laudantium blanditiis
-                delectus pariatur aspernatur, cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem, exercitationem eveniet, similique dolor culpa magnam ut autem odio corporis, delectus alias
-                est obcaecati consequatur nobis iure quaerat reiciendis eum. Earum!Lorem Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.?</p>
+            <p> <b>Niché au fond de la vallée de la basse guinée, Kindia, nos produits sont issus du commerce équitable.Une ferme familiale qui vous offre des produits en toute saison et pendant toute l'année des produits sains
+                et authentiques.</b> <br>
+            <dl>
+                <dt> <strong>🍇🍓</strong></dt> 
+                <dd>-Des fruits rouges pour la fabrication du Yaourt</dd>
+                <dt> <strong>🍋🥥</strong></dt> 
+                <dd>-Des antioxydants pour la fabrication du jus</dd>
+                <dt> <strong>🍈🍌</strong></dt> 
+                <dd>-Des fruits de saison pour la fabrication de la confiture</dd>
+
+            </dl>
+                <q>Nous sommes ce que nous mangeons, mais ce que nous mangeons peut nous aider à être beaucoup plus que ce que nous sommes.</q>
+                <em>Alice May Brock.</em>
+            </p>
+
         </div>
 
     </div>
@@ -49,7 +56,7 @@
 
     <div class="produit">
         <div class="paragraphe">
-            <img class="imgp1" src="confiture-banane..jpg" alt=";">
+            <img class="imgp1" src="confiture-banane..jpg" alt="confiture banane">
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde reprehenderit eos
                 doloremque odit in voluptatibus temporibus consectetur officia tempore saepe similique enim nostrum,
                 ipsam
@@ -59,7 +66,7 @@
 
         </div>
         <div class="paragraphe">
-            <img class="imgp3" src="yaourt.jpg" alt="">
+            <img class="imgp3" src="yaourt.jpg" alt="yaourt">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rem soluta error laudantium sint
                 distinctio
                 tempore eius. Deleniti sapiente enim quis unde voluptatibus officia earum officiis est in.
@@ -69,13 +76,14 @@
         </div>
 
         <div class="paragraphe">
-            <img class="imgp4" src="citronnade.webp">
+            <img class="imgp4" src="citronnade.webp" alt="limonade">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugit repudiandae voluptatem. Voluptas
                 beatae repellendus
                 fuga odio distinctio accusantium molestiae iusto ut atque tenetur dolorum, incidunt quia sunt
                 tempore qui?</p>
             <button><i class="fa-solid fa-2xl fa-basket-shopping"></i></button>
-            <p class="prix"> 3€ </p>
+            <p class="prix"> 3€ </p> 
+
         </div>
 
     </div>
@@ -90,14 +98,57 @@
 
         <form>
             <!-- pour faire un formulaire  -->
-            <input type="text" placeholder="Vos coordonnees svp "><br>
-            <input type="text" placeholder="Votre message svp "><br>
+            <input type="text" placeholder="Vos coordonnées svp "><br>
+            <input type="text" placeholder="Votre adresse svp "><br>
+
+            <textarea name="msg" cols="80" rows="10" placeholder="Votre message"></textarea><br>
+            <!-- Pour rajouter une liste de pays -->
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="u.s.a">U.S.A</option>
+                <option value="guinee">Guinée</option>
+                <option value="australie">Australie</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="bresil">Brésil</option>
+            </select>
+            <!-- pour rajouter une recherche intelligente -->
+            <input list="ter">
+            <datalist id="ter">
+                <option value="france">France</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="u.s.a">U.S.A</option>
+                <option value="guinee">Guinée</option>
+                <option value="australie">Australie</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="bresil">Brésil</option>
+        
+            </datalist>
+
             <button class="envoyer">envoyer </button>
         </form>
 
+        <audio class="son" src="mapiste.mp3" controls="1" autoplay alt="auteur : Leo Sokolovsky" >
+        </audio>
 
     </div>
-    <p> </p>
+
+
+    <footer>
+        <article>
+            <ul> 
+                <li><a class="article" href="https://html-css-js.com/html/character-codes/"target="_blank">caractéres spéciaux html</a>
+                </li>
+            <li> <a class="article" href="https://www.auboutdufil.com/index.php?id=636"target="-blank" >musiques libres de droit</a></li>
+    
+            </ul>
+    
+        </article>
+
+        <p>@copyright 2022 DIABY-Alpha </p>
+    
+    </footer>
+
 
 
 </body>

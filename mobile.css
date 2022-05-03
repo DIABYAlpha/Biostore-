@@ -118,16 +118,6 @@ h4 {
     font-size: 40px;
 }
 
-.informations {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid burlywood;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 70px;
-}
 
 form {
     /* uniquement pour centrer le formulaire sur la page  */
@@ -140,12 +130,6 @@ form {
     border-radius: 1em;
     margin-top: 1em;
     margin-bottom: 50px;
-}
-
-label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
 }
 
 input {
